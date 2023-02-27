@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <title>Lista de Tarefas</title>
+</head>
+<body class="font-sans bg-gradient-to-r from-violet-500 to-fuchsia-500">
+    
+
+    <main class="flex items-center flex-col m-10 ">
+        <h1 class="font-bold text-center text-violet-900 text-4xl uppercase">Lista de Tarefas</h1>
+
+        <!--  ADICIONADO TAREFAS  -->
+        <section class="container w-4/12 bg-slate-900 text-slate-400 p-10 m-7 rounded-lg shadow-md">
+           <form>
+            <input type="text" class="p-2 w-3/4 rounded-lg outline-none ">
+            <input type="button" value="ADD" class=" w-1/5  p-2 font-semibold mx-2 bg-indigo-500 shadow-lg shadow-indigo-500/50 rounded-lg text-indigo-100 hover:bg-indigo-700 cursor-pointer">
+           </form>
+        </section>
+
+        <!--  TAREFAS ADICIONADA   -->
+
+        
+        <section class="my-4container w-4/12 bg-slate-900 text-slate-400 p-10 m-7 rounded-lg shadow-md">
+            <div id="tarefa" class="text-center border-b-4 border-indigo-100 flex justify-between p-3 rounded-lg ">
+                <p>tarefa</p>
+                <input type="checkbox">
+            </div>
+
+            <div id="tarefa" class="text-center border-b-4 border-indigo-100 flex justify-between p-3 rounded-lg my-5">
+                <p>tarefa</p>
+                <input type="checkbox">
+            </div>
+            <div id="tarefa" class="text-center border-b-4 border-indigo-100 flex justify-between p-3 rounded-lg ">
+                <p>tarefa</p>
+                <input type="checkbox">
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
